@@ -15,6 +15,7 @@
 
   <!-- styles -->
   <link rel='stylesheet' href='/css/normalize.css'/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&subset=cyrillic" rel="stylesheet"> 
   <link rel='stylesheet' href='<?= url_add_version('/css/main.min.css') ?>'/>
   <!-- /styles -->
 </head>

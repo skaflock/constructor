@@ -5,25 +5,6 @@
 /*jslint browser: true*/
 /*global $, jQuery, console, flexibility*/
 
-// подключаемые шрифты
-window.WebFontConfig = {
-  google: {
-    families: [
-      'PT+Sans:400,400italic,700,700italic:latin,cyrillic',
-      'PT+Sans+Narrow:400,700:latin,cyrillic'
-    ]
-  }
-};
-(function() {
-  var wf = document.createElement('script');
-  wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-  wf.type = 'text/javascript';
-  wf.async = 'true';
-  wf.defer = 'true';
-  var s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(wf, s);
-})();
-
 window.devGrid = {
   id: 'devGrid',
   open: false,
