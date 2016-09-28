@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+html,
+body{
+  min-height: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: @font, sans-serif;
+  font-size: @font-size;
+  color: @color-text;
+}
+
+.flex{
+  display: flex;
+
+  &:not(.center):not(.nospace){
+    justify-content: space-between;
+  }
+}
