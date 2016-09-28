@@ -12,7 +12,6 @@ window.devGrid = {
     var _t = this;
     var open = false;
     document.onkeydown = function(e) {
-      console.log(e);
       if (e.ctrlKey && (~[59, 186].indexOf(e.which) || e.code == 'Semicolon')) {
         if (open) {
           _t.destroy();
